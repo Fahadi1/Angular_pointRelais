@@ -1,0 +1,22 @@
+<div id="centerList">
+    <div class='container'>
+        <div id="divParentChoixTransporteur">
+            <div id="parentForm">
+                <form class="formChoixTransporteur" *ngFor='let pointrelai of pointRelais'
+                    (click)="selectPointRelais(pointrelai)">
+                    <div class="divEachTransporteur">
+                        <label>Nom :</label>
+                        <label> {{pointrelai.name}} </label>
+                    </div>
+                    <div class="divEachTransporteur">
+                        <label>Ville :</label>
+                        <label> {{pointrelai.adresse.ville}} </label>
+                    </div>
+                </form>
+            </div>
+            <div id="parentLienPanier">
+                <div (click)="goBackToTransporteur()" class="goBack"> Retour transporteur </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,5 +1,5 @@
 export const environment = {
   production: true,
   
-  apiUrl: 'http://localhost:3000/pointsRelais'
+  apiUrl: 'http://15.188.87.229:3000/pointsRelais'
 };

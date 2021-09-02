@@ -5,7 +5,7 @@
 export const environment = {
   production: false,
 
-  apiUrl: 'http://15.188.87.229:3000/pointsRelais'
+  apiUrl: 'http://localhost:3000/pointsRelais'
 };
 
 /*

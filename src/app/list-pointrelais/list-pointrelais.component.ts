@@ -34,7 +34,7 @@ export class ListPointrelaisComponent implements OnInit {
   }
 
   goBackToTransporteur(): void {
-    this.document.location.href='http://15.188.87.229:8085/choixTransporteur';
+    this.document.location.href='http://localhost:8085/choixTransporteur';
   }
 
 }

@@ -31,7 +31,7 @@ export class DetailsComponent implements OnInit {
   }
 
   goToPayment(pointrelai) : void {
-    this.document.location.href= 'http://15.188.87.229:8085/payment/' + pointrelai.id;
+    this.document.location.href= 'http://localhost:8085/payment/' + pointrelai.id;
   }
 
 }
